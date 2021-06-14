@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #eeeeee;
+}
+
+header .nav__top h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+header .nav__cart button {
+    padding: 5px 10px;
+    font-size: 13px;
+    border: 1px solid;
+    background-color: white;
+}
+
+header .nav__cart button:hover {
+    background-color: beige;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#product .container-flute {
+    margin: 40px 40px;
+}
+
+#product .container-flute .row .col-3 .item {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}

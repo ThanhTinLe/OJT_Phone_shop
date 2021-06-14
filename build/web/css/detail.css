@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #eeeeee;
+}
+
+header .nav__top h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#Detail{
+    display: flex;
+}
+#Detail .detail__image{
+    padding: 10px 30px;
+} 
+#Detail .info{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+#Detail .info div{
+    padding: 10px;
+    padding-left: 0;
+}
+#Detail .info div h6{
+    display: inline;
+}

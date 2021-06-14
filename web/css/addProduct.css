@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #eeeeee;
+}
+
+header .nav__top h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+#addProduct .title{
+    width: 90%;
+    margin: 0 auto;
+}
+#addProduct .title h3{
+    padding-top: 30px;
+    border-bottom: 1px solid ;
+}
+
+#addProduct form{
+    padding: 30px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+#addProduct form .lable{
+    text-align: right;
+    margin-right: 30px;
+}
+#addProduct form .lable .input__lable{
+    padding-bottom: 20px;
+}
+
+#addProduct form .input .input__item{
+    margin-bottom: 20px;
+}

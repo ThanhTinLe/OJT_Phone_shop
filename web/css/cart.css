@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #eeeeee;
+}
+
+header .nav__top h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+#cart{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#cart .cart__button{
+    display: flex;
+    justify-content: space-between;
+}
+#cart table{
+    margin-top: 0 !important;
+}
